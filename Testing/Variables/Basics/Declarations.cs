@@ -11,7 +11,7 @@ namespace DataTypes
 		// Numeric Data Types
 		int a = 75;
 		double b = 7.258;
-		long c = 67,893,342,128,382;
+		long c = 67893342128382;
 		
 		// Text-based Data Types
 		string ChaCha = "I do the Cha-Cha like a Sissy Girl.";
@@ -22,19 +22,25 @@ namespace DataTypes
 		
 	/*===|  Output Examples  |===*/
 		// Numeric Outputs
-		Console.WriteLine(a);
-		Console.WriteLine(b);
-		Console.WriteLine(c);
+		Console.WriteLine("\n Text/String Output" + "\n");
+		Console.WriteLine("\n'a' = " + a + "\n");
+		Console.WriteLine("\n'b' = " + b + "\n");
+		Console.WriteLine("\n'c' = " + c + "\n");
 		
-		Console.WriteLine(a * b);
-		Console.WriteLine(a / b);
+		// Simple Arithmetic
+		Console.WriteLine("\na ⨯ b = ", a * b, "\n");
+		Console.WriteLine("\nc ÷ b = ", c / b, "\n");
+		Console.WriteLine("\nb + b = ", c + b, "\n");
+		Console.WriteLine("\nb - a + b = ", c - a + b, "\n");
 		
-		// Text Outputs
-		Console.WriteLine(ChaCha);
-		Console.WriteLine(Nuts);
 		
-		// Text Outputs
-		Console.WriteLine("Result: " + Result);
+		// Text Output
+		Console.WriteLine("\n Text/String Output" + "\n");
+		Console.WriteLine("\n'ChaCha' = " + ChaCha + "\n");
+		Console.WriteLine("\n'Nuts' = " + Nuts + "\n");
+		
+		// Boolean Outputs
+		Console.WriteLine("\n Test-Patht: " + Result + "\n");
 		}
 	}
 }
