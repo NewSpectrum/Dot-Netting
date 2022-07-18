@@ -25,12 +25,15 @@ namespace DataTypes
 		Console.WriteLine(y)
 		Console.WriteLine(z)
 		
+		Console.WriteLine(x * y)
+		Console.WriteLine(x / y)
+		
 		// Text Outputs
 		Console.WriteLine(ChaCha)
 		Console.WriteLine(Nuts)
 		
 		// Text Outputs
 		Console.WriteLine("Result: " + Result)
-	}
+		}
 	}
 }
