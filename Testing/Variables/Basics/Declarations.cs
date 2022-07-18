@@ -33,6 +33,20 @@ namespace DataTypes
 		Console.WriteLine("\nb + b = ", c + b, "\n");
 		Console.WriteLine("\nb - a + b = ", c - a + b, "\n");
 		
+		// Simple Arithmetic v2
+		Console.Write("\na ⨯ b = ");
+			Console.WriteLine(a * <b>, "\n");
+		Console.Write("\nc ÷ b = ");
+			Console.WriteLine("\nc ÷ b = ", c / b, "\n");
+		Console.Write("\nb + b = ");
+			Console.WriteLine("\nb + b = ", c + b, "\n");
+		Console.Write("\nb - a = ");
+			Console.WriteLine("\nb + b = ", c + b, "\n");
+			
+		
+		Console.Write("\nb - a + b = ");
+			Console.WriteLine("\nb - a + b = ", c - a + b, "\n");
+		
 		
 		// Text Output
 		Console.WriteLine("\n Text/String Output" + "\n");
