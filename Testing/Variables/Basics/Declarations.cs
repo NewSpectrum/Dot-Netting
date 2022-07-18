@@ -37,11 +37,11 @@ namespace DataTypes
 		Console.Write("\na ⨯ b = ");
 			Console.WriteLine(a * <b>, "\n");
 		Console.Write("\nc ÷ b = ");
-			Console.WriteLine("\nc ÷ b = ", c / b, "\n");
+			Console.WriteLine(c / b, "\n");
 		Console.Write("\nb + b = ");
-			Console.WriteLine("\nb + b = ", c + b, "\n");
+			Console.WriteLine(c + b, "\n");
 		Console.Write("\nb - a = ");
-			Console.WriteLine("\nb + b = ", c + b, "\n");
+			Console.WriteLine(c + b, "\n");
 			
 		
 		Console.Write("\nb - a + b = ");
