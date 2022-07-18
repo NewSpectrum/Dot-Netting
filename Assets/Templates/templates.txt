@@ -1,1 +1,0 @@
-Seriously, what's the difference between a "Django Text Document" and a "Standard Text Document"??
